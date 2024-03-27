@@ -19,3 +19,8 @@ _第16章　コレクション_
 _第17章　例外_  
 _第18章　まだまだ広がるJavaの世界_  
 
+## 演習問題
+_session1 アルゴリズム(１～5章)_
+_session2 object-orientation オブジェクト指向(６～13章)_
+_session3 data-structure データ構造（全部完了後）_
+
