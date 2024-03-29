@@ -12,7 +12,7 @@ public class Main {
 		RunInterface[] interfaceArray = {new Car(), new Cat("ニャー!!"), new Dog("ワンワン!!")};
 		
 		RoadDataBean bean = new RoadDataBean();
-		bean.setDistance(0);
+		bean.setDistance(1000);
 		
 		for(RunInterface runIf : interfaceArray) {
 			System.out.println(runIf.run(bean) + "秒");
@@ -20,8 +20,8 @@ public class Main {
 		
 		
 		Cat cat = new Cat("meow!!");
-		cat.call();
+		cat.crying();
 		Dog dog = new Dog("bow wow!!");
-		dog.call();
+		dog.crying();
 	}
 }
